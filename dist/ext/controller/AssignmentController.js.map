@@ -1,0 +1,1 @@
+{"version":3,"file":"AssignmentController.js","names":["sap","ui","define","MessageToast","editAssignment","oEvent"],"sources":["AssignmentController-dbg.js"],"mappings":"AAAAA,IAAIC,GAAGC,OAAO,CACV,sBACD,SAASC,GACR,aAEA,MAAO,CACHC,eAAgB,SAASC,GAIzB,EAER","ignoreList":[]}

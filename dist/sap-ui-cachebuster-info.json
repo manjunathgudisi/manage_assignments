@@ -1,0 +1,17 @@
+{
+  "Component-preload.js": 1730808149378,
+  "manifest.json": 1730808148972,
+  "ext/controller/AssignmentController.js": 1730808131069,
+  "ext/controller/ObjectPageController.js": 1730806643169,
+  "Component.js": 1730732343062,
+  "ext/controller/ObjectPageController-dbg.js": 1730806643169,
+  "ext/controller/ObjectPageController.js.map": 1730808149182,
+  "ext/controller/AssignmentController-dbg.js": 1730808131069,
+  "ext/controller/AssignmentController.js.map": 1730808149181,
+  "Component-dbg.js": 1730732343062,
+  "Component.js.map": 1730808149177,
+  "i18n/i18n.properties": 1730732368342,
+  "Component-preload.js.map": 1730808149378,
+  "annotations/annotation.xml": 1730733196397,
+  "index.html": 1730732343062
+}
