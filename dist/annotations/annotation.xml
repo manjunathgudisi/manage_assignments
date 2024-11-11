@@ -54,6 +54,11 @@
                             <PropertyValue Property="Label" String="General Information"/>
                             <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#GeneratedGroup"/>
                         </Record>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="Label" String="Edit Engagement"/>
+                            <PropertyValue Property="ID" String="EditEngagement"/>
+                            <PropertyValue Property="Target" AnnotationPath="@UI.FieldGroup#EditEngagement"/>
+                        </Record>
                     </Collection>
                 </Annotation>
                 <Annotation Term="UI.LineItem">
@@ -125,6 +130,44 @@
                         </PropertyValue>
                         <PropertyValue Property="TypeName" String=""/>
                         <PropertyValue Property="TypeNamePlural" String=""/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.FieldGroup" Qualifier="EditEngagement">
+                    <Record Type="UI.FieldGroupType">
+                        <PropertyValue Property="Data">
+                            <Collection>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="CustomerName"/>
+                                    <PropertyValue Property="Label" String="CustomerName"/>
+                                    <PropertyValue Property="Updatable" Bool="true"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="CRMId"/>
+                                    <PropertyValue Property="Label" String="CRMId"/>
+                                    <PropertyValue Property="Updatable" Bool="true"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="isActive"/>
+                                    <PropertyValue Property="Label" String="isActive"/>
+                                    <PropertyValue Property="Updatable" Bool="true"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="isLead"/>
+                                    <PropertyValue Property="Label" String="isLead"/>
+                                    <PropertyValue Property="Updatable" Bool="true"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="leadEA"/>
+                                    <PropertyValue Property="Label" String="leadEA"/>
+                                    <PropertyValue Property="Updatable" Bool="true"/>
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="comment"/>
+                                    <PropertyValue Property="Label" String="comment"/>
+                                    <PropertyValue Property="Updatable" Bool="true"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
                     </Record>
                 </Annotation>
             </Annotations>

@@ -203,15 +203,12 @@
                                 },
                                 "header": {
                                     "actions": {
-                                        "Edit": {
-                                            "press": "manageassignments.ext.controller.AssignmentController.editAssignment",
+                                        "ManageEngagement": {
+                                            "press": "manageassignments.ext.manageEngagement.ManageEngagement.editEngagement",
                                             "visible": true,
                                             "enabled": true,
-                                            "text": "Edit",
-                                            "position": {
-                                                "placement": "Before",
-                                                "anchor": "DeleteAction"
-                                            }
+                                            "requiresSelection": false,
+                                            "text": "Edit"
                                         }
                                     }
                                 }

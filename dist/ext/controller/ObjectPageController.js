@@ -1,2 +1,0 @@
-sap.ui.define(["sap/ui/core/mvc/ControllerExtension"],function(e){"use strict";return e.extend("manageassignments.ext.controller.ObjectPageController",{override:{onInit:function(){var e=this.base.getExtensionAPI().getModel()}}})});
-//# sourceMappingURL=ObjectPageController.js.map
